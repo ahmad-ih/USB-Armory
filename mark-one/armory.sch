@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:armory
-LIBS:armory-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -79,7 +47,7 @@ F0 "Unused" 100
 F1 "unused.sch" 100
 $EndSheet
 $Comp
-L USB_A_PLUG J2
+L armory:USB_A_PLUG J2
 U 1 1 538F1B2F
 P 2600 2500
 F 0 "J2" H 2600 2500 60  0000 C CNN
@@ -119,17 +87,17 @@ F0 "RAM" 100
 F1 "RAM.sch" 100
 $EndSheet
 Wire Wire Line
-	2400 3200 2400 7500
+	2400 3200 2400 4300
 Wire Wire Line
 	2400 4300 4500 4300
 Wire Wire Line
-	2850 4700 4500 4700
+	2850 4700 4300 4700
 Wire Wire Line
-	2550 6800 4500 6800
+	2550 6800 4000 6800
 Wire Wire Line
 	2700 6600 4500 6600
 Wire Wire Line
-	2400 6400 4500 6400
+	2400 6400 4120 6400
 Connection ~ 2400 4300
 Wire Wire Line
 	4120 6400 4120 5700
@@ -141,7 +109,7 @@ Wire Wire Line
 	6670 6400 7100 6400
 Connection ~ 4120 6400
 Wire Wire Line
-	2700 3200 2700 7800
+	2700 3200 2700 6600
 Wire Wire Line
 	2850 3200 2850 4700
 Wire Wire Line
@@ -159,14 +127,14 @@ Wire Wire Line
 	2700 7800 2750 7800
 Connection ~ 2700 6600
 Wire Wire Line
-	2550 3200 2550 7650
+	2550 3200 2550 6800
 Wire Wire Line
 	2550 7650 2750 7650
 Wire Wire Line
 	4000 7500 4000 6800
 Connection ~ 4000 6800
 $Comp
-L TPD2E001DRLR U5
+L armory-rescue:TPD2E001DRLR U5
 U 1 1 546B9156
 P 3300 7650
 F 0 "U5" H 3300 7650 60  0000 C CNN
@@ -181,4 +149,18 @@ F 8 "2335444" H 3300 7650 60  0001 C CNN "Supplier PN"
 	1    3300 7650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2400 4300 2400 6400
+Wire Wire Line
+	4120 6400 4500 6400
+Wire Wire Line
+	2400 6400 2400 7500
+Wire Wire Line
+	2550 6800 2550 7650
+Wire Wire Line
+	4300 4700 4500 4700
+Wire Wire Line
+	2700 6600 2700 7800
+Wire Wire Line
+	4000 6800 4500 6800
 $EndSCHEMATC

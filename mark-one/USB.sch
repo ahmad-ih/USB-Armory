@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:armory
-LIBS:armory-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -59,7 +27,7 @@ NoConn ~ 9350 5350
 Text Notes 9400 5500 0    60   ~ 0
 Freescale\nreserved.\n(M53UG)
 $Comp
-L R R28
+L armory-rescue:R R28
 U 1 1 538F5CEA
 P 10250 5400
 F 0 "R28" V 10330 5400 40  0000 C CNN
@@ -75,7 +43,7 @@ F 8 "2140165" V 10250 5400 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L armory-rescue:GND #PWR070
 U 1 1 538F5CF2
 P 10250 5850
 F 0 "#PWR070" H 10250 5850 30  0001 C CNN
@@ -102,7 +70,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 4750 9350 4750
 $Comp
-L C C76
+L armory-rescue:C C76
 U 1 1 538F5E31
 P 7250 5450
 F 0 "C76" H 7250 5550 40  0000 L CNN
@@ -118,7 +86,7 @@ F 8 "1844078" H 7250 5450 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR071
+L armory-rescue:GND #PWR071
 U 1 1 538F5E37
 P 7250 5750
 F 0 "#PWR071" H 7250 5750 30  0001 C CNN
@@ -133,7 +101,7 @@ Wire Wire Line
 Text GLabel 5550 3850 0    60   Input ~ 0
 PMIC_SW4_3V3
 $Comp
-L INDUCTOR L7
+L armory-rescue:INDUCTOR L7
 U 1 1 53C505BA
 P 4600 4750
 F 0 "L7" H 4550 4750 40  0000 C CNN
@@ -149,7 +117,7 @@ F 8 "2336037" V 4600 4750 60  0001 C CNN "Supplier PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C115
+L armory-rescue:C C115
 U 1 1 53C505D2
 P 5600 5050
 F 0 "C115" H 5600 5150 40  0000 L CNN
@@ -171,7 +139,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 4750 4900 4750
 $Comp
-L C C113
+L armory-rescue:C C113
 U 1 1 53C50763
 P 5200 5050
 F 0 "C113" H 5200 5150 40  0000 L CNN
@@ -187,7 +155,7 @@ F 8 "2346873" H 5200 5050 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR072
+L armory-rescue:GND #PWR072
 U 1 1 53C5077D
 P 5600 5350
 F 0 "#PWR072" H 5600 5350 30  0001 C CNN
@@ -198,7 +166,7 @@ F 3 "" H 5600 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR073
+L armory-rescue:GND #PWR073
 U 1 1 53C50788
 P 5200 5350
 F 0 "#PWR073" H 5200 5350 30  0001 C CNN
@@ -219,7 +187,7 @@ Wire Wire Line
 	5600 4750 5600 4850
 Connection ~ 5600 4750
 $Comp
-L R R38
+L armory-rescue:R R38
 U 1 1 53C525CB
 P 11750 5400
 F 0 "R38" V 11830 5400 40  0000 C CNN
@@ -235,7 +203,7 @@ F 8 "2140129" V 11750 5400 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R37
+L armory-rescue:R R37
 U 1 1 53C5265E
 P 11750 4700
 F 0 "R37" V 11830 4700 40  0000 C CNN
@@ -253,7 +221,7 @@ $EndComp
 Wire Wire Line
 	11750 4950 11750 5150
 $Comp
-L GND #PWR074
+L armory-rescue:GND #PWR074
 U 1 1 53C52697
 P 11750 5850
 F 0 "#PWR074" H 11750 5850 30  0001 C CNN
@@ -273,7 +241,7 @@ USB_VBUS
 Wire Wire Line
 	11750 3150 11750 4450
 $Comp
-L R R44
+L armory-rescue:R R44
 U 1 1 53C65C52
 P 11250 3700
 F 0 "R44" V 11330 3700 40  0000 C CNN
@@ -289,7 +257,7 @@ F 8 "2139939" V 11250 3700 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C117
+L armory-rescue:C C117
 U 1 1 53C65CBE
 P 11250 4350
 F 0 "C117" H 11250 4450 40  0000 L CNN
@@ -305,7 +273,7 @@ F 8 "2354043" H 11250 4350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR075
+L armory-rescue:GND #PWR075
 U 1 1 53C65CDA
 P 11250 4650
 F 0 "#PWR075" H 11250 4650 30  0001 C CNN
@@ -334,7 +302,7 @@ Wire Wire Line
 	10850 4050 11250 4050
 Connection ~ 11250 4050
 $Comp
-L R R40
+L armory-rescue:R R40
 U 1 1 53C65E19
 P 3950 4750
 F 0 "R40" V 4030 4750 40  0000 C CNN
@@ -356,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 4750 3700 4750
 $Comp
-L R R42
+L armory-rescue:R R42
 U 1 1 53C660B6
 P 6800 5250
 F 0 "R42" V 6880 5250 40  0000 C CNN
@@ -379,7 +347,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 5250 6550 5250
 $Comp
-L R R57
+L armory-rescue:R R57
 U 1 1 53D239AA
 P 10250 6200
 F 0 "R57" V 10330 6200 40  0000 C CNN
@@ -395,7 +363,7 @@ F 8 "2140165" V 10250 6200 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR076
+L armory-rescue:GND #PWR076
 U 1 1 53D239B0
 P 10250 6650
 F 0 "#PWR076" H 10250 6650 30  0001 C CNN
@@ -412,7 +380,7 @@ Wire Wire Line
 Text Notes 10400 6250 0    60   ~ 0
 According to Freescale USB_H1_RREFEXT must\nbe connected for JTAG to work.
 $Comp
-L MX53 U2
+L armory:MX53 U2
 U 10 1 538352C5
 P 8400 5450
 F 0 "U2" H 8220 5520 70  0000 C CNN
@@ -423,7 +391,7 @@ F 3 "" H 8360 5490 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG077
+L power:PWR_FLAG #FLG077
 U 1 1 5406978D
 P 7000 4650
 F 0 "#FLG077" H 7000 4745 30  0001 C CNN
@@ -437,7 +405,7 @@ Wire Wire Line
 	7000 4650 7000 4750
 Connection ~ 7000 4750
 $Comp
-L PWR_FLAG #FLG078
+L power:PWR_FLAG #FLG078
 U 1 1 5406981E
 P 7400 4950
 F 0 "#FLG078" H 7400 5045 30  0001 C CNN
@@ -451,7 +419,7 @@ Wire Wire Line
 	7400 4950 7400 5250
 Connection ~ 7400 5250
 $Comp
-L PWR_FLAG #FLG079
+L power:PWR_FLAG #FLG079
 U 1 1 5406A219
 P 10550 4800
 F 0 "#FLG079" H 10550 4895 30  0001 C CNN
@@ -469,7 +437,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 3850 6350 5850
 $Comp
-L INDUCTOR L8
+L armory-rescue:INDUCTOR L8
 U 1 1 542A73D2
 P 4600 5650
 F 0 "L8" H 4550 5650 40  0000 C CNN
@@ -485,7 +453,7 @@ F 8 "2336037" V 4600 5650 60  0001 C CNN "Supplier PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C116
+L armory-rescue:C C116
 U 1 1 542A73DD
 P 5600 5950
 F 0 "C116" H 5600 6050 40  0000 L CNN
@@ -503,7 +471,7 @@ $EndComp
 Wire Wire Line
 	4900 5650 7450 5650
 $Comp
-L C C114
+L armory-rescue:C C114
 U 1 1 542A73E9
 P 5200 5950
 F 0 "C114" H 5200 6050 40  0000 L CNN
@@ -519,7 +487,7 @@ F 8 "2346873" H 5200 5950 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR080
+L armory-rescue:GND #PWR080
 U 1 1 542A73EF
 P 5600 6250
 F 0 "#PWR080" H 5600 6250 30  0001 C CNN
@@ -530,7 +498,7 @@ F 3 "" H 5600 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR081
+L armory-rescue:GND #PWR081
 U 1 1 542A73F5
 P 5200 6250
 F 0 "#PWR081" H 5200 6250 30  0001 C CNN
@@ -551,7 +519,7 @@ Wire Wire Line
 	5600 5650 5600 5750
 Connection ~ 5600 5650
 $Comp
-L R R41
+L armory-rescue:R R41
 U 1 1 542A7406
 P 3950 5650
 F 0 "R41" V 4030 5650 40  0000 C CNN
@@ -572,7 +540,7 @@ Wire Wire Line
 	3600 5650 3700 5650
 Connection ~ 3600 4750
 $Comp
-L R R43
+L armory-rescue:R R43
 U 1 1 542A7536
 P 6800 5850
 F 0 "R43" V 6880 5850 40  0000 C CNN
@@ -593,7 +561,7 @@ Connection ~ 6350 5250
 Wire Wire Line
 	7050 5850 7450 5850
 $Comp
-L C C92
+L armory-rescue:C C92
 U 1 1 542A75E0
 P 7250 6150
 F 0 "C92" H 7250 6250 40  0000 L CNN
@@ -609,7 +577,7 @@ F 8 "1844078" H 7250 6150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR082
+L armory-rescue:GND #PWR082
 U 1 1 542A7609
 P 7250 6450
 F 0 "#PWR082" H 7250 6450 30  0001 C CNN
@@ -625,7 +593,7 @@ Connection ~ 7250 5850
 Wire Wire Line
 	7250 6350 7250 6450
 $Comp
-L PWR_FLAG #FLG083
+L power:PWR_FLAG #FLG083
 U 1 1 542A776F
 P 7600 6100
 F 0 "#FLG083" H 7600 6195 30  0001 C CNN
@@ -636,7 +604,7 @@ F 3 "" H 7600 6100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG084
+L power:PWR_FLAG #FLG084
 U 1 1 542A777A
 P 6100 5500
 F 0 "#FLG084" H 6100 5595 30  0001 C CNN

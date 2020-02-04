@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name armory-rescue)(type Legacy)(uri ${KIPRJMOD}/armory-rescue.lib)(options "")(descr ""))
+  (lib (name armory)(type Legacy)(uri "/Users/ahmad/Desktop/Repo Tests/Feb4/USB-Armory/lib.legacy/armory.lib")(options "")(descr ""))
+)

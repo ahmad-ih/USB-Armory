@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:armory
-LIBS:armory-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 "http://inversepath.com/usbarmory"
 Comment4 ""
 $EndDescr
 $Comp
-L MX53 U?
+L armory:MX53 U?
 U 5 1 53C625CC
 P 6550 5250
 AR Path="/53834030/53C625CC" Ref="U?"  Part="5" 
@@ -169,7 +137,7 @@ Wire Wire Line
 Text Label 7850 6450 0    60   ~ 0
 BT_CFG2_5
 $Comp
-L GND #PWR085
+L armory-rescue:GND #PWR085
 U 1 1 53C6261D
 P 8800 4500
 F 0 "#PWR085" H 8800 4500 30  0001 C CNN
@@ -186,7 +154,7 @@ Connection ~ 8800 4050
 Text GLabel 10150 3200 2    60   Input ~ 0
 PMIC_SW4_3V3
 $Comp
-L R R25
+L armory-rescue:R R25
 U 1 1 53C6262C
 P 9650 3750
 F 0 "R25" V 9730 3750 40  0000 C CNN
@@ -209,7 +177,7 @@ Connection ~ 8800 3950
 Connection ~ 8800 3850
 Connection ~ 8800 2750
 $Comp
-L R R32
+L armory-rescue:R R32
 U 1 1 53C6263C
 P 9950 3750
 F 0 "R32" V 10030 3750 40  0000 C CNN
@@ -232,7 +200,7 @@ Wire Wire Line
 	9950 3500 9950 3200
 Connection ~ 9950 3200
 $Comp
-L GND #PWR086
+L armory-rescue:GND #PWR086
 U 1 1 53C62646
 P 8800 7750
 F 0 "#PWR086" H 8800 7750 30  0001 C CNN
@@ -289,7 +257,7 @@ I2C1_SCL
 Text Label 7850 5850 0    60   ~ 0
 I2C1_SDA
 $Comp
-L R R33
+L armory-rescue:R R33
 U 1 1 53C6A47B
 P 10700 4750
 F 0 "R33" V 10780 4750 40  0000 C CNN
@@ -305,7 +273,7 @@ F 8 "2140150" V 10700 4750 60  0001 C CNN "Supplier PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R34
+L armory-rescue:R R34
 U 1 1 53C6A486
 P 11000 4750
 F 0 "R34" V 11080 4750 40  0000 C CNN

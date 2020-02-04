@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:armory
-LIBS:armory-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 "http://inversepath.com/usbarmory"
 Comment4 ""
 $EndDescr
 $Comp
-L MX53 U2
+L armory:MX53 U2
 U 7 1 53722D0E
 P 2410 3750
 F 0 "U2" H 2230 3820 70  0000 C CNN
@@ -128,7 +96,7 @@ NoConn ~ 1460 1750
 Text GLabel 5895 1435 0    60   Input ~ 0
 PMIC_SW4_3V3
 $Comp
-L MICRO_SD_HINGE J1
+L armory:MICRO_SD_HINGE J1
 U 1 1 53723105
 P 8770 2460
 F 0 "J1" H 8820 2510 60  0000 C CNN
@@ -144,7 +112,7 @@ F 8 "101-00303-68-1-ND" H 8770 2460 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L armory-rescue:GND #PWR060
 U 1 1 53B52B70
 P 6795 1960
 F 0 "#PWR060" H 6795 1960 30  0001 C CNN
@@ -155,7 +123,7 @@ F 3 "" H 6795 1960 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C107
+L armory-rescue:C C107
 U 1 1 53B52C94
 P 6795 1710
 F 0 "C107" H 6795 1810 40  0000 L CNN
@@ -171,7 +139,7 @@ F 8 "2211164" H 6795 1710 60  0001 C CNN "Supplier PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C108
+L armory-rescue:C C108
 U 1 1 53B52D21
 P 7145 1710
 F 0 "C108" H 7145 1810 40  0000 L CNN
@@ -187,7 +155,7 @@ F 8 "1844078" H 7145 1710 60  0001 C CNN "Supplier PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR061
+L armory-rescue:GND #PWR061
 U 1 1 53B52D59
 P 7145 1960
 F 0 "#PWR061" H 7145 1960 30  0001 C CNN
@@ -200,7 +168,7 @@ $EndComp
 Text Notes 7370 1810 0    60   ~ 0
 Place the capacitors near\nthe SD connector.
 $Comp
-L GND #PWR062
+L armory-rescue:GND #PWR062
 U 1 1 53B52E55
 P 8720 3610
 F 0 "#PWR062" H 8720 3610 30  0001 C CNN
@@ -211,7 +179,7 @@ F 3 "" H 8720 3610 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R31
+L armory-rescue:R R31
 U 1 1 53B532AD
 P 6420 1735
 F 0 "R31" V 6500 1735 40  0000 C CNN
@@ -227,7 +195,7 @@ F 8 "2140192" V 6420 1735 60  0001 C CNN "Supplier PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R45
+L armory-rescue:R R45
 U 1 1 53C68F69
 P 6420 2460
 F 0 "R45" V 6500 2460 40  0000 C CNN
@@ -257,7 +225,7 @@ SD1_DATA3
 Text Label 3560 1750 0    60   ~ 0
 SD1_CMD
 $Comp
-L MX53 U?
+L armory:MX53 U?
 U 6 1 5460C738
 P 10790 6950
 AR Path="/53834030/5460C738" Ref="U?"  Part="6" 
@@ -307,7 +275,7 @@ NoConn ~ 9840 8250
 NoConn ~ 9840 8350
 NoConn ~ 9840 8550
 $Comp
-L GND #PWR063
+L armory-rescue:GND #PWR063
 U 1 1 5460C766
 P 7340 7150
 F 0 "#PWR063" H 7340 7150 30  0001 C CNN
@@ -335,7 +303,7 @@ UART1_RX
 Text Label 9140 6550 0    60   ~ 0
 GPIO5_30
 $Comp
-L CONN_01X07 P4
+L armory:CONN_01X07 P4
 U 1 1 5460C78E
 P 6940 7650
 F 0 "P4" H 6940 8050 50  0000 C CNN
@@ -351,7 +319,7 @@ F 8 "-" H 6940 7650 60  0001 C CNN "Supplier PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L armory-rescue:LED D1
 U 1 1 5460C799
 P 12840 4850
 F 0 "D1" H 12840 4950 50  0000 C CNN
@@ -367,7 +335,7 @@ F 8 "2078730" H 12840 4850 60  0001 C CNN "Supplier PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R16
+L armory-rescue:R R16
 U 1 1 5460C7A5
 P 12840 5500
 F 0 "R16" V 12920 5500 40  0000 C CNN

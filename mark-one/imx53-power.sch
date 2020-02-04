@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:armory
-LIBS:armory-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 "http://inversepath.com/usbarmory"
 Comment4 ""
 $EndDescr
 $Comp
-L MX53 U2
+L armory:MX53 U2
 U 2 1 5334708A
 P 4500 4910
 F 0 "U2" H 4270 5020 70  0000 C CNN
@@ -61,7 +29,7 @@ F 7 "1899038 / 1899035 / 1899036" H 4500 4910 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L armory-rescue:C C20
 U 1 1 533471F4
 P 6500 1150
 F 0 "C20" H 6500 1250 40  0000 L CNN
@@ -786,7 +754,7 @@ Wire Wire Line
 Text Label 5950 6150 0    60   ~ 0
 IMX53_VDDA
 $Comp
-L GND #PWR035
+L armory-rescue:GND #PWR035
 U 1 1 533AF6FB
 P 7250 6500
 F 0 "#PWR035" H 7250 6500 30  0001 C CNN
@@ -797,7 +765,7 @@ F 3 "" H 7250 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L armory-rescue:GND #PWR036
 U 1 1 533AF708
 P 6950 5700
 F 0 "#PWR036" H 6950 5700 30  0001 C CNN
@@ -808,7 +776,7 @@ F 3 "" H 6950 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L armory-rescue:GND #PWR037
 U 1 1 533AF70E
 P 6450 7500
 F 0 "#PWR037" H 6450 7500 30  0001 C CNN
@@ -819,7 +787,7 @@ F 3 "" H 6450 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR038
+L armory-rescue:GND #PWR038
 U 1 1 533AF714
 P 8150 6800
 F 0 "#PWR038" H 8150 6800 30  0001 C CNN
@@ -830,7 +798,7 @@ F 3 "" H 8150 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L armory-rescue:GND #PWR039
 U 1 1 533AF71A
 P 6200 3900
 F 0 "#PWR039" H 6200 3900 30  0001 C CNN
@@ -841,7 +809,7 @@ F 3 "" H 6200 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L armory-rescue:GND #PWR040
 U 1 1 533AF720
 P 6500 3200
 F 0 "#PWR040" H 6500 3200 30  0001 C CNN
@@ -852,7 +820,7 @@ F 3 "" H 6500 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L armory-rescue:GND #PWR041
 U 1 1 533AF726
 P 6200 2300
 F 0 "#PWR041" H 6200 2300 30  0001 C CNN
@@ -863,7 +831,7 @@ F 3 "" H 6200 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L armory-rescue:GND #PWR042
 U 1 1 533AF72E
 P 6500 1500
 F 0 "#PWR042" H 6500 1500 30  0001 C CNN
@@ -874,7 +842,7 @@ F 3 "" H 6500 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L armory-rescue:GND #PWR043
 U 1 1 533AF73D
 P 5600 10600
 F 0 "#PWR043" H 5600 10600 30  0001 C CNN
@@ -885,7 +853,7 @@ F 3 "" H 5600 10600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L armory-rescue:GND #PWR044
 U 1 1 533AF751
 P 6250 10850
 F 0 "#PWR044" H 6250 10850 30  0001 C CNN
@@ -896,7 +864,7 @@ F 3 "" H 6250 10850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L armory-rescue:GND #PWR045
 U 1 1 533AF760
 P 3370 10650
 F 0 "#PWR045" H 3370 10650 30  0001 C CNN
@@ -907,7 +875,7 @@ F 3 "" H 3370 10650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L armory-rescue:GND #PWR046
 U 1 1 533AF76F
 P 6750 11050
 F 0 "#PWR046" H 6750 11050 30  0001 C CNN
@@ -918,7 +886,7 @@ F 3 "" H 6750 11050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L armory-rescue:GND #PWR047
 U 1 1 533AF78D
 P 7950 9600
 F 0 "#PWR047" H 7950 9600 30  0001 C CNN
@@ -929,7 +897,7 @@ F 3 "" H 7950 9600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L armory-rescue:GND #PWR048
 U 1 1 533AF79C
 P 6850 9550
 F 0 "#PWR048" H 6850 9550 30  0001 C CNN
@@ -940,7 +908,7 @@ F 3 "" H 6850 9550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR049
+L armory-rescue:GND #PWR049
 U 1 1 533AF7AB
 P 7250 8700
 F 0 "#PWR049" H 7250 8700 30  0001 C CNN
@@ -972,7 +940,7 @@ PMIC_SW1_VDDGP
 Text GLabel 9050 2650 2    60   Input ~ 0
 PMIC_SW2_VCC
 $Comp
-L TST P1
+L armory-rescue:TST P1
 U 1 1 5371E01A
 P 5950 2450
 F 0 "P1" H 5950 2750 40  0000 C CNN
@@ -985,7 +953,7 @@ $EndComp
 Wire Wire Line
 	5450 2450 5950 2450
 $Comp
-L TST P2
+L armory-rescue:TST P2
 U 1 1 5371E212
 P 6050 5950
 F 0 "P2" H 6050 6250 40  0000 C CNN
@@ -998,7 +966,7 @@ $EndComp
 Wire Wire Line
 	5450 5950 6050 5950
 $Comp
-L C C21
+L armory-rescue:C C21
 U 1 1 537A5072
 P 6800 1150
 F 0 "C21" H 6800 1250 40  0000 L CNN
@@ -1014,7 +982,7 @@ F 8 "2354046" H 6800 1150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C22
+L armory-rescue:C C22
 U 1 1 537A507D
 P 7100 1150
 F 0 "C22" H 7100 1250 40  0000 L CNN
@@ -1030,7 +998,7 @@ F 8 "2354046" H 7100 1150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C23
+L armory-rescue:C C23
 U 1 1 537A5088
 P 7400 1150
 F 0 "C23" H 7400 1250 40  0000 L CNN
@@ -1046,7 +1014,7 @@ F 8 "2354046" H 7400 1150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C24
+L armory-rescue:C C24
 U 1 1 537A50F9
 P 7700 1150
 F 0 "C24" H 7700 1250 40  0000 L CNN
@@ -1062,7 +1030,7 @@ F 8 "2354046" H 7700 1150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C25
+L armory-rescue:C C25
 U 1 1 537A5104
 P 8000 1150
 F 0 "C25" H 8000 1250 40  0000 L CNN
@@ -1078,7 +1046,7 @@ F 8 "2354046" H 8000 1150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C26
+L armory-rescue:C C26
 U 1 1 537A510F
 P 8300 1150
 F 0 "C26" H 8300 1250 40  0000 L CNN
@@ -1094,7 +1062,7 @@ F 8 "2354046" H 8300 1150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C27
+L armory-rescue:C C27
 U 1 1 537A515A
 P 6200 1950
 F 0 "C27" H 6200 2050 40  0000 L CNN
@@ -1110,7 +1078,7 @@ F 8 "2354046" H 6200 1950 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C28
+L armory-rescue:C C28
 U 1 1 537A5165
 P 6500 1950
 F 0 "C28" H 6500 2050 40  0000 L CNN
@@ -1126,7 +1094,7 @@ F 8 "2354046" H 6500 1950 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C29
+L armory-rescue:C C29
 U 1 1 537A5170
 P 6800 1950
 F 0 "C29" H 6800 2050 40  0000 L CNN
@@ -1142,7 +1110,7 @@ F 8 "2354046" H 6800 1950 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C30
+L armory-rescue:C C30
 U 1 1 537A517B
 P 7100 1950
 F 0 "C30" H 7100 2050 40  0000 L CNN
@@ -1158,7 +1126,7 @@ F 8 "2354046" H 7100 1950 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
+L armory-rescue:C C32
 U 1 1 537A51AE
 P 6500 2850
 F 0 "C32" H 6500 2950 40  0000 L CNN
@@ -1174,7 +1142,7 @@ F 8 "2354046" H 6500 2850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C33
+L armory-rescue:C C33
 U 1 1 537A51C3
 P 6800 2850
 F 0 "C33" H 6800 2950 40  0000 L CNN
@@ -1190,7 +1158,7 @@ F 8 "2354046" H 6800 2850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C34
+L armory-rescue:C C34
 U 1 1 537A51CE
 P 7100 2850
 F 0 "C34" H 7100 2950 40  0000 L CNN
@@ -1206,7 +1174,7 @@ F 8 "2354046" H 7100 2850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C35
+L armory-rescue:C C35
 U 1 1 537A51ED
 P 7400 2850
 F 0 "C35" H 7400 2950 40  0000 L CNN
@@ -1222,7 +1190,7 @@ F 8 "2354046" H 7400 2850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C36
+L armory-rescue:C C36
 U 1 1 537A51F8
 P 7700 2850
 F 0 "C36" H 7700 2950 40  0000 L CNN
@@ -1238,7 +1206,7 @@ F 8 "2354046" H 7700 2850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C37
+L armory-rescue:C C37
 U 1 1 537A5203
 P 8000 2850
 F 0 "C37" H 8000 2950 40  0000 L CNN
@@ -1254,7 +1222,7 @@ F 8 "2354046" H 8000 2850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C38
+L armory-rescue:C C38
 U 1 1 537A520E
 P 8300 2850
 F 0 "C38" H 8300 2950 40  0000 L CNN
@@ -1270,7 +1238,7 @@ F 8 "2354046" H 8300 2850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C40
+L armory-rescue:C C40
 U 1 1 537A5274
 P 6200 3550
 F 0 "C40" H 6200 3650 40  0000 L CNN
@@ -1286,7 +1254,7 @@ F 8 "2354046" H 6200 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C41
+L armory-rescue:C C41
 U 1 1 537A5289
 P 6500 3550
 F 0 "C41" H 6500 3650 40  0000 L CNN
@@ -1302,7 +1270,7 @@ F 8 "2354046" H 6500 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C42
+L armory-rescue:C C42
 U 1 1 537A5294
 P 6800 3550
 F 0 "C42" H 6800 3650 40  0000 L CNN
@@ -1318,7 +1286,7 @@ F 8 "2354046" H 6800 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C43
+L armory-rescue:C C43
 U 1 1 537A529F
 P 7100 3550
 F 0 "C43" H 7100 3650 40  0000 L CNN
@@ -1334,7 +1302,7 @@ F 8 "2354046" H 7100 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C44
+L armory-rescue:C C44
 U 1 1 537A52AA
 P 7400 3550
 F 0 "C44" H 7400 3650 40  0000 L CNN
@@ -1350,7 +1318,7 @@ F 8 "2354046" H 7400 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C45
+L armory-rescue:C C45
 U 1 1 537A52B5
 P 7700 3550
 F 0 "C45" H 7700 3650 40  0000 L CNN
@@ -1366,7 +1334,7 @@ F 8 "2354046" H 7700 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C46
+L armory-rescue:C C46
 U 1 1 537A52C0
 P 8000 3550
 F 0 "C46" H 8000 3650 40  0000 L CNN
@@ -1382,7 +1350,7 @@ F 8 "2354046" H 8000 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C48
+L armory-rescue:C C48
 U 1 1 537A5CCE
 P 6950 5350
 F 0 "C48" H 6950 5450 40  0000 L CNN
@@ -1398,7 +1366,7 @@ F 8 "2354046" H 6950 5350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C49
+L armory-rescue:C C49
 U 1 1 537A5CD9
 P 7250 5350
 F 0 "C49" H 7250 5450 40  0000 L CNN
@@ -1414,7 +1382,7 @@ F 8 "2354046" H 7250 5350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C50
+L armory-rescue:C C50
 U 1 1 537A5CE4
 P 7550 5350
 F 0 "C50" H 7550 5450 40  0000 L CNN
@@ -1430,7 +1398,7 @@ F 8 "2354046" H 7550 5350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C52
+L armory-rescue:C C52
 U 1 1 537A5D34
 P 8150 5350
 F 0 "C52" H 8150 5450 40  0000 L CNN
@@ -1446,7 +1414,7 @@ F 8 "2354046" H 8150 5350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C53
+L armory-rescue:C C53
 U 1 1 537A5D49
 P 7250 6150
 F 0 "C53" H 7250 6250 40  0000 L CNN
@@ -1462,7 +1430,7 @@ F 8 "2354046" H 7250 6150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C54
+L armory-rescue:C C54
 U 1 1 537A5D5E
 P 7550 6150
 F 0 "C54" H 7550 6250 40  0000 L CNN
@@ -1478,7 +1446,7 @@ F 8 "2354046" H 7550 6150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C56
+L armory-rescue:C C56
 U 1 1 537A5D73
 P 8450 6450
 F 0 "C56" H 8450 6550 40  0000 L CNN
@@ -1494,7 +1462,7 @@ F 8 "2354046" H 8450 6450 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C55
+L armory-rescue:C C55
 U 1 1 537A5E32
 P 8150 6450
 F 0 "C55" H 8150 6550 40  0000 L CNN
@@ -1510,7 +1478,7 @@ F 8 "1844078" H 8150 6450 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C57
+L armory-rescue:C C57
 U 1 1 537A5E98
 P 6450 7150
 F 0 "C57" H 6450 7250 40  0000 L CNN
@@ -1526,7 +1494,7 @@ F 8 "1844078" H 6450 7150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C58
+L armory-rescue:C C58
 U 1 1 537A5EA3
 P 6750 7150
 F 0 "C58" H 6750 7250 40  0000 L CNN
@@ -1542,7 +1510,7 @@ F 8 "1844078" H 6750 7150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C59
+L armory-rescue:C C59
 U 1 1 537A5EC2
 P 7050 7150
 F 0 "C59" H 7050 7250 40  0000 L CNN
@@ -1558,7 +1526,7 @@ F 8 "1844078" H 7050 7150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C60
+L armory-rescue:C C60
 U 1 1 537A5ECD
 P 7350 7150
 F 0 "C60" H 7350 7250 40  0000 L CNN
@@ -1574,7 +1542,7 @@ F 8 "1844078" H 7350 7150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C61
+L armory-rescue:C C61
 U 1 1 537A5ED8
 P 7650 7150
 F 0 "C61" H 7650 7250 40  0000 L CNN
@@ -1590,7 +1558,7 @@ F 8 "1844078" H 7650 7150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C63
+L armory-rescue:C C63
 U 1 1 537A5F23
 P 7250 8350
 F 0 "C63" H 7250 8450 40  0000 L CNN
@@ -1606,7 +1574,7 @@ F 8 "1844078" H 7250 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C64
+L armory-rescue:C C64
 U 1 1 537A5F2E
 P 7550 8350
 F 0 "C64" H 7550 8450 40  0000 L CNN
@@ -1622,7 +1590,7 @@ F 8 "1844078" H 7550 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C65
+L armory-rescue:C C65
 U 1 1 537A5F39
 P 7850 8350
 F 0 "C65" H 7850 8450 40  0000 L CNN
@@ -1638,7 +1606,7 @@ F 8 "1844078" H 7850 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C66
+L armory-rescue:C C66
 U 1 1 537A5F62
 P 8150 8350
 F 0 "C66" H 8150 8450 40  0000 L CNN
@@ -1654,7 +1622,7 @@ F 8 "1844078" H 8150 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C67
+L armory-rescue:C C67
 U 1 1 537A5F6D
 P 8450 8350
 F 0 "C67" H 8450 8450 40  0000 L CNN
@@ -1670,7 +1638,7 @@ F 8 "1844078" H 8450 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C68
+L armory-rescue:C C68
 U 1 1 537A5F78
 P 8750 8350
 F 0 "C68" H 8750 8450 40  0000 L CNN
@@ -1686,7 +1654,7 @@ F 8 "1844078" H 8750 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C69
+L armory-rescue:C C69
 U 1 1 537A5FA1
 P 9050 8350
 F 0 "C69" H 9050 8450 40  0000 L CNN
@@ -1702,7 +1670,7 @@ F 8 "1844078" H 9050 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C70
+L armory-rescue:C C70
 U 1 1 537A5FAC
 P 9350 8350
 F 0 "C70" H 9350 8450 40  0000 L CNN
@@ -1718,7 +1686,7 @@ F 8 "1844078" H 9350 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C71
+L armory-rescue:C C71
 U 1 1 537A5FB7
 P 9650 8350
 F 0 "C71" H 9650 8450 40  0000 L CNN
@@ -1734,7 +1702,7 @@ F 8 "1844078" H 9650 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C72
+L armory-rescue:C C72
 U 1 1 537A5FE0
 P 9950 8350
 F 0 "C72" H 9950 8450 40  0000 L CNN
@@ -1750,7 +1718,7 @@ F 8 "1844078" H 9950 8350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C74
+L armory-rescue:C C74
 U 1 1 537A5FF5
 P 7950 9250
 F 0 "C74" H 7950 9350 40  0000 L CNN
@@ -1766,7 +1734,7 @@ F 8 "1844078" H 7950 9250 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C75
+L armory-rescue:C C75
 U 1 1 537A6000
 P 8250 9250
 F 0 "C75" H 8250 9350 40  0000 L CNN
@@ -1782,7 +1750,7 @@ F 8 "1844078" H 8250 9250 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C81
+L armory-rescue:C C81
 U 1 1 537A602B
 P 6250 10650
 F 0 "C81" H 6250 10750 40  0000 L CNN
@@ -1798,7 +1766,7 @@ F 8 "1844078" H 6250 10650 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C82
+L armory-rescue:C C82
 U 1 1 537A6040
 P 6750 10850
 F 0 "C82" H 6750 10950 40  0000 L CNN
@@ -1814,7 +1782,7 @@ F 8 "1844078" H 6750 10850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C31
+L armory-rescue:C C31
 U 1 1 537A605C
 P 7400 1950
 F 0 "C31" H 7400 2050 40  0000 L CNN
@@ -1830,7 +1798,7 @@ F 8 "2354116" H 7400 1950 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C47
+L armory-rescue:C C47
 U 1 1 537A62A5
 P 8250 3550
 F 0 "C47" H 8250 3650 40  0000 L CNN
@@ -1846,7 +1814,7 @@ F 8 "2354116" H 8250 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C39
+L armory-rescue:C C39
 U 1 1 537A6394
 P 8550 2850
 F 0 "C39" H 8550 2950 40  0000 L CNN
@@ -1862,7 +1830,7 @@ F 8 "2346872" H 8550 2850 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C51
+L armory-rescue:C C51
 U 1 1 537A63DA
 P 7850 5350
 F 0 "C51" H 7850 5450 40  0000 L CNN
@@ -1878,7 +1846,7 @@ F 8 "2346872" H 7850 5350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C62
+L armory-rescue:C C62
 U 1 1 537A6498
 P 7950 7150
 F 0 "C62" H 7950 7250 40  0000 L CNN
@@ -1894,7 +1862,7 @@ F 8 "2354099" H 7950 7150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C73
+L armory-rescue:C C73
 U 1 1 537A6523
 P 6850 9350
 F 0 "C73" H 6850 9450 40  0000 L CNN
@@ -1952,7 +1920,7 @@ VDD_FUSE
 Text Label 5700 6950 0    60   ~ 0
 NVCC_EMI_DRAM
 $Comp
-L INDUCTOR L5
+L armory-rescue:INDUCTOR L5
 U 1 1 53C4EF5D
 P 7050 10550
 F 0 "L5" H 7000 10550 40  0000 C CNN
@@ -1970,7 +1938,7 @@ $EndComp
 Text GLabel 7150 9850 2    60   Input ~ 0
 IMX53_LDO_1V3
 $Comp
-L PWR_FLAG #FLG050
+L power:PWR_FLAG #FLG050
 U 1 1 54067AEE
 P 6900 10100
 F 0 "#FLG050" H 6900 10195 30  0001 C CNN
@@ -1984,7 +1952,7 @@ Wire Wire Line
 	6900 10100 6750 10100
 Connection ~ 6750 10100
 $Comp
-L TST P5
+L armory-rescue:TST P5
 U 1 1 54185E06
 P 7550 8950
 F 0 "P5" H 7550 9250 40  0000 C CNN

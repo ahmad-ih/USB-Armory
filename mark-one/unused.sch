@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:armory
-LIBS:armory-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 "http://inversepath.com/usbarmory"
 Comment4 ""
 $EndDescr
 $Comp
-L MX53 U2
+L armory:MX53 U2
 U 8 1 53834052
 P 9170 3930
 F 0 "U2" H 8990 4000 70  0000 C CNN
@@ -64,7 +32,7 @@ NoConn ~ 10120 4230
 NoConn ~ 8220 4330
 NoConn ~ 8220 4230
 $Comp
-L GND #PWR064
+L armory-rescue:GND #PWR064
 U 1 1 538340B8
 P 7870 3830
 F 0 "#PWR064" H 7870 3830 30  0001 C CNN
@@ -75,7 +43,7 @@ F 3 "" H 7870 3830 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR065
+L armory-rescue:GND #PWR065
 U 1 1 538340C5
 P 7720 3730
 F 0 "#PWR065" H 7720 3730 30  0001 C CNN
@@ -94,7 +62,7 @@ Wire Wire Line
 Wire Wire Line
 	7870 3730 7870 3830
 $Comp
-L GND #PWR066
+L armory-rescue:GND #PWR066
 U 1 1 538340D0
 P 7720 4030
 F 0 "#PWR066" H 7720 4030 30  0001 C CNN
@@ -105,7 +73,7 @@ F 3 "" H 7720 4030 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR067
+L armory-rescue:GND #PWR067
 U 1 1 538340D6
 P 7870 4130
 F 0 "#PWR067" H 7870 4130 30  0001 C CNN
@@ -124,7 +92,7 @@ Wire Wire Line
 Wire Wire Line
 	7870 4030 7870 4130
 $Comp
-L MX53 U2
+L armory:MX53 U2
 U 9 1 538340EA
 P 12730 4020
 F 0 "U2" H 12550 4090 70  0000 C CNN
@@ -143,7 +111,7 @@ NoConn ~ 11780 4020
 NoConn ~ 11780 4220
 NoConn ~ 11780 4120
 $Comp
-L MX53 U2
+L armory:MX53 U2
 U 1 1 53834141
 P 5110 4800
 F 0 "U2" H 4930 4870 70  0000 C CNN
@@ -177,7 +145,7 @@ NoConn ~ 4160 5200
 Text GLabel 2960 3700 0    60   Input ~ 0
 PMIC_SW3_2V5
 $Comp
-L C C88
+L armory-rescue:C C88
 U 1 1 538341C5
 P 4060 4150
 F 0 "C88" H 4060 4250 40  0000 L CNN
@@ -198,7 +166,7 @@ Wire Wire Line
 	4060 3950 4060 3800
 Connection ~ 4060 3800
 $Comp
-L GND #PWR068
+L armory-rescue:GND #PWR068
 U 1 1 53834223
 P 4060 4500
 F 0 "#PWR068" H 4060 4500 30  0001 C CNN
@@ -216,7 +184,7 @@ Wire Wire Line
 	3460 3700 3460 3800
 Connection ~ 3460 3700
 $Comp
-L R R14
+L armory-rescue:R R14
 U 1 1 53C3B046
 P 3710 3800
 F 0 "R14" V 3790 3800 40  0000 C CNN
@@ -241,7 +209,7 @@ NoConn ~ 13680 4020
 NoConn ~ 13680 4220
 NoConn ~ 13680 4320
 $Comp
-L PWR_FLAG #FLG069
+L power:PWR_FLAG #FLG069
 U 1 1 540688C4
 P 3710 4200
 F 0 "#FLG069" H 3710 4295 30  0001 C CNN

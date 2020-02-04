@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:armory
-LIBS:armory-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -60,7 +28,7 @@ NoConn ~ 10050 6350
 NoConn ~ 10050 6450
 NoConn ~ 10050 6550
 $Comp
-L GND #PWR051
+L armory-rescue:GND #PWR051
 U 1 1 533C7F7B
 P 10650 8250
 F 0 "#PWR051" H 10650 8250 30  0001 C CNN
@@ -71,7 +39,7 @@ F 3 "" H 10650 8250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR052
+L armory-rescue:GND #PWR052
 U 1 1 533C7F8A
 P 12350 8250
 F 0 "#PWR052" H 12350 8250 30  0001 C CNN
@@ -82,7 +50,7 @@ F 3 "" H 12350 8250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C84
+L armory-rescue:C C84
 U 1 1 533C7FC2
 P 7400 6250
 F 0 "C84" H 7400 6350 40  0000 L CNN
@@ -98,7 +66,7 @@ F 8 "1844471" H 7400 6250 60  0001 C CNN "Supplier PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R21
+L armory-rescue:R R21
 U 1 1 533AEA7B
 P 5550 5900
 F 0 "R21" V 5630 5900 40  0000 C CNN
@@ -114,7 +82,7 @@ F 8 "2139901" V 5550 5900 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR053
+L armory-rescue:GND #PWR053
 U 1 1 533AEACF
 P 5850 6450
 F 0 "#PWR053" H 5850 6450 30  0001 C CNN
@@ -125,7 +93,7 @@ F 3 "" H 5850 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR054
+L armory-rescue:GND #PWR054
 U 1 1 533AEADE
 P 5550 6450
 F 0 "#PWR054" H 5550 6450 30  0001 C CNN
@@ -140,7 +108,7 @@ IMX53_LDO_1V8
 Text Notes 4600 5100 0    60   ~ 0
 Boot Mode: [0, 0] Internal Boot\nIf errors occur -> Serial Downloader Mode\n\nfloating: BOOT_MODE0, BOOT_MODE1\n  IMX53IEC Rev. 6, 03/2013, pg 30\n  Recommendation 35: internal pull-down on BOOT_MODE0 and BOOT_MODE1\n\nfloating: TEST_MODE\n  IMX53IEC Rev. 6, 03/2013, pg 30\n  Recommendation 17
 $Comp
-L C C85
+L armory-rescue:C C85
 U 1 1 53846604
 P 7400 6850
 F 0 "C85" H 7400 6950 40  0000 L CNN
@@ -156,7 +124,7 @@ F 8 "1844471" H 7400 6850 60  0001 C CNN "Supplier PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R22
+L armory-rescue:R R22
 U 1 1 53846713
 P 5850 6000
 F 0 "R22" V 5930 6000 40  0000 C CNN
@@ -172,7 +140,7 @@ F 8 "2139901" V 5850 6000 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C86
+L armory-rescue:C C86
 U 1 1 53846AA0
 P 10650 8050
 F 0 "C86" H 10650 8150 40  0000 L CNN
@@ -188,7 +156,7 @@ F 8 "1844505" H 10650 8050 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C87
+L armory-rescue:C C87
 U 1 1 53846B60
 P 12350 8050
 F 0 "C87" H 12350 8150 40  0000 L CNN
@@ -204,7 +172,7 @@ F 8 "1844505" H 12350 8050 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR055
+L armory-rescue:GND #PWR055
 U 1 1 5388331A
 P 7100 7100
 F 0 "#PWR055" H 7100 7100 30  0001 C CNN
@@ -215,7 +183,7 @@ F 3 "" H 7100 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR056
+L armory-rescue:GND #PWR056
 U 1 1 5390A1BA
 P 10950 8050
 F 0 "#PWR056" H 10950 8050 30  0001 C CNN
@@ -226,7 +194,7 @@ F 3 "" H 10950 8050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L armory-rescue:R R26
 U 1 1 53BD3F54
 P 7750 2900
 F 0 "R26" V 7830 2900 40  0000 C CNN
@@ -246,7 +214,7 @@ CKIH1
 Text Label 7600 5750 0    60   ~ 0
 CKIH2
 $Comp
-L C C112
+L armory-rescue:C C112
 U 1 1 53C4F939
 P 7750 3550
 F 0 "C112" H 7750 3650 40  0000 L CNN
@@ -262,7 +230,7 @@ F 8 "1844078" H 7750 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR057
+L armory-rescue:GND #PWR057
 U 1 1 53C4F93F
 P 7750 3850
 F 0 "#PWR057" H 7750 3850 30  0001 C CNN
@@ -273,7 +241,7 @@ F 3 "" H 7750 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L armory-rescue:R R35
 U 1 1 53C4F9E2
 P 7250 2900
 F 0 "R35" V 7330 2900 40  0000 C CNN
@@ -289,7 +257,7 @@ F 8 "2140192" V 7250 2900 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C111
+L armory-rescue:C C111
 U 1 1 53C4F9F9
 P 7250 3550
 F 0 "C111" H 7250 3650 40  0000 L CNN
@@ -305,7 +273,7 @@ F 8 "1844078" H 7250 3550 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR058
+L armory-rescue:GND #PWR058
 U 1 1 53C4FAE4
 P 7250 3850
 F 0 "#PWR058" H 7250 3850 30  0001 C CNN
@@ -317,7 +285,7 @@ F 3 "" H 7250 3850 60  0000 C CNN
 $EndComp
 NoConn ~ 8140 5350
 $Comp
-L R R39
+L armory-rescue:R R39
 U 1 1 53C64427
 P 11550 7000
 F 0 "R39" V 11630 7000 40  0000 C CNN
@@ -334,7 +302,7 @@ F 9 "DNP" V 11444 7000 60  0000 C CNN "DNP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR059
+L armory-rescue:GND #PWR059
 U 1 1 53C6B2C6
 P 12250 7350
 F 0 "#PWR059" H 12250 7350 30  0001 C CNN
@@ -349,7 +317,7 @@ MX53_EXTAL
 Text Label 10150 6850 0    60   ~ 0
 MX53_XTAL
 $Comp
-L MX53 U2
+L armory:MX53 U2
 U 3 1 533C7F2F
 P 9100 5050
 F 0 "U2" H 8920 5120 70  0000 C CNN
@@ -453,7 +421,7 @@ Wire Wire Line
 	12250 7250 12250 7350
 Connection ~ 10650 7700
 $Comp
-L CRYSTAL X1
+L armory-rescue:CRYSTAL X1
 U 1 1 53C6B178
 P 7750 6550
 F 0 "X1" H 7750 6700 60  0000 C CNN
@@ -469,7 +437,7 @@ F 8 "2101346" H 7750 6550 60  0001 C CNN "Supplier PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CRYSTAL-24M X2
+L armory:CRYSTAL-24M X2
 U 1 1 53C7998D
 P 11550 7650
 F 0 "X2" H 11575 7900 60  0000 C CNN
@@ -511,7 +479,7 @@ NoConn ~ 8140 4250
 NoConn ~ 8140 4350
 NoConn ~ 8140 4500
 $Comp
-L TST P8
+L armory-rescue:TST P8
 U 1 1 54185BE1
 P 10200 3850
 F 0 "P8" H 10200 4150 40  0000 C CNN
@@ -522,7 +490,7 @@ F 3 "~" H 10200 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TST P9
+L armory-rescue:TST P9
 U 1 1 54185BE7
 P 10400 3850
 F 0 "P9" H 10400 4150 40  0000 C CNN
@@ -533,7 +501,7 @@ F 3 "~" H 10400 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TST P10
+L armory-rescue:TST P10
 U 1 1 54185BF2
 P 10600 3850
 F 0 "P10" H 10600 4150 40  0000 C CNN
@@ -544,7 +512,7 @@ F 3 "~" H 10600 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TST P11
+L armory-rescue:TST P11
 U 1 1 54185BFD
 P 10800 3850
 F 0 "P11" H 10800 4150 40  0000 C CNN
@@ -555,7 +523,7 @@ F 3 "~" H 10800 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TST P12
+L armory-rescue:TST P12
 U 1 1 54185C08
 P 11000 3850
 F 0 "P12" H 11000 4150 40  0000 C CNN
@@ -581,7 +549,7 @@ Wire Wire Line
 	11000 3850 11000 4350
 Connection ~ 11000 4350
 $Comp
-L TST P13
+L armory-rescue:TST P13
 U 1 1 54185D44
 P 11200 3850
 F 0 "P13" H 11200 4150 40  0000 C CNN
@@ -595,7 +563,7 @@ Wire Wire Line
 	11200 3850 11200 4450
 Connection ~ 11200 4450
 $Comp
-L TST P6
+L armory-rescue:TST P6
 U 1 1 54185D92
 P 10000 3400
 F 0 "P6" H 10000 3700 40  0000 C CNN

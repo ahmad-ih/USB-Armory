@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:armory
-LIBS:armory-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 "http://inversepath.com/usbarmory"
 Comment4 ""
 $EndDescr
 $Comp
-L MX53 U2
+L armory:MX53 U2
 U 4 1 53834A45
 P 1560 6320
 F 0 "U2" H 1380 6390 70  0000 C CNN
@@ -168,7 +136,7 @@ DRAM_A9
 Text Label 2650 2550 0    60   ~ 0
 DRAM_A8
 $Comp
-L R R15
+L armory-rescue:R R15
 U 1 1 53870145
 P 15500 5350
 F 0 "R15" V 15580 5350 40  0000 C CNN
@@ -184,7 +152,7 @@ F 8 "2140024" V 15500 5350 60  0001 C CNN "Supplier PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR087
+L armory-rescue:GND #PWR087
 U 1 1 53870351
 P 15500 6500
 F 0 "#PWR087" H 15500 6500 30  0001 C CNN
@@ -195,7 +163,7 @@ F 3 "" H 15500 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C90
+L armory-rescue:C C90
 U 1 1 5387046A
 P 15050 5350
 F 0 "C90" H 15050 5450 40  0000 L CNN
@@ -211,7 +179,7 @@ F 8 "1844078" H 15050 5350 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C89
+L armory-rescue:C C89
 U 1 1 53870475
 P 14900 6150
 F 0 "C89" H 14900 6250 40  0000 L CNN
@@ -229,7 +197,7 @@ $EndComp
 Text Label 13950 5750 0    60   ~ 0
 DDR_VREF
 $Comp
-L TST P3
+L armory-rescue:TST P3
 U 1 1 53870B46
 P 14600 5400
 F 0 "P3" H 14600 5700 40  0000 C CNN
@@ -240,7 +208,7 @@ F 3 "~" H 14600 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR088
+L armory-rescue:GND #PWR088
 U 1 1 5390977F
 P 10850 9100
 F 0 "#PWR088" H 10850 9100 30  0001 C CNN
@@ -362,7 +330,7 @@ DRAM_SDODT0
 Text Label 6350 6850 0    60   ~ 0
 DRAM_SDODT0
 $Comp
-L R R29
+L armory-rescue:R R29
 U 1 1 5390703C
 P 5300 8250
 F 0 "R29" V 5380 8250 40  0000 C CNN
@@ -378,7 +346,7 @@ F 8 "2139985" V 5300 8250 60  0001 C CNN "Supplier PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR089
+L armory-rescue:GND #PWR089
 U 1 1 53907105
 P 5300 8700
 F 0 "#PWR089" H 5300 8700 30  0001 C CNN
@@ -389,7 +357,7 @@ F 3 "" H 5300 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR090
+L armory-rescue:GND #PWR090
 U 1 1 53907114
 P 5300 8700
 F 0 "#PWR090" H 5300 8700 30  0001 C CNN
@@ -400,7 +368,7 @@ F 3 "" H 5300 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L armory-rescue:R R27
 U 1 1 539071C7
 P 4000 5250
 F 0 "R27" V 4080 5250 40  0000 C CNN
@@ -416,7 +384,7 @@ F 8 "2139985" V 4000 5250 60  0001 C CNN "Supplier PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR091
+L armory-rescue:GND #PWR091
 U 1 1 539071CD
 P 4000 5700
 F 0 "#PWR091" H 4000 5700 30  0001 C CNN
@@ -427,7 +395,7 @@ F 3 "" H 4000 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR092
+L armory-rescue:GND #PWR092
 U 1 1 539071D3
 P 4000 5700
 F 0 "#PWR092" H 4000 5700 30  0001 C CNN
@@ -710,7 +678,7 @@ PMIC_DDR_1V5
 Text GLabel 13100 1200 0    60   Input ~ 0
 PMIC_DDR_1V5
 $Comp
-L C C94
+L armory-rescue:C C94
 U 1 1 53908537
 P 13500 1700
 F 0 "C94" H 13500 1800 40  0000 L CNN
@@ -726,7 +694,7 @@ F 8 "1844078" H 13500 1700 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C95
+L armory-rescue:C C95
 U 1 1 53908556
 P 13800 1700
 F 0 "C95" H 13800 1800 40  0000 L CNN
@@ -742,7 +710,7 @@ F 8 "2354055" H 13800 1700 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C97
+L armory-rescue:C C97
 U 1 1 53908561
 P 14100 1700
 F 0 "C97" H 14100 1800 40  0000 L CNN
@@ -758,7 +726,7 @@ F 8 "1844078" H 14100 1700 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C99
+L armory-rescue:C C99
 U 1 1 5390858E
 P 14400 1700
 F 0 "C99" H 14400 1800 40  0000 L CNN
@@ -774,7 +742,7 @@ F 8 "2354055" H 14400 1700 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C101
+L armory-rescue:C C101
 U 1 1 53908599
 P 14700 1700
 F 0 "C101" H 14700 1800 40  0000 L CNN
@@ -790,7 +758,7 @@ F 8 "1844078" H 14700 1700 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C103
+L armory-rescue:C C103
 U 1 1 539085A4
 P 15000 1700
 F 0 "C103" H 15000 1800 40  0000 L CNN
@@ -806,7 +774,7 @@ F 8 "2354055" H 15000 1700 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C105
+L armory-rescue:C C105
 U 1 1 539085AF
 P 15300 1700
 F 0 "C105" H 15300 1800 40  0000 L CNN
@@ -844,7 +812,7 @@ Wire Wire Line
 	13500 1200 13500 1500
 Connection ~ 13500 1200
 $Comp
-L GND #PWR093
+L armory-rescue:GND #PWR093
 U 1 1 53908C55
 P 15300 2200
 F 0 "#PWR093" H 15300 2200 30  0001 C CNN
@@ -881,7 +849,7 @@ Place near the VDD balls.
 Text GLabel 13100 2650 0    60   Input ~ 0
 PMIC_DDR_1V5
 $Comp
-L C C98
+L armory-rescue:C C98
 U 1 1 53909367
 P 14100 3150
 F 0 "C98" H 14100 3250 40  0000 L CNN
@@ -897,7 +865,7 @@ F 8 "1844078" H 14100 3150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C102
+L armory-rescue:C C102
 U 1 1 5390937D
 P 14700 3150
 F 0 "C102" H 14700 3250 40  0000 L CNN
@@ -913,7 +881,7 @@ F 8 "1844078" H 14700 3150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C106
+L armory-rescue:C C106
 U 1 1 53909393
 P 15300 3150
 F 0 "C106" H 15300 3250 40  0000 L CNN
@@ -948,7 +916,7 @@ Wire Wire Line
 	13800 2650 13800 2950
 Connection ~ 13800 2650
 $Comp
-L GND #PWR094
+L armory-rescue:GND #PWR094
 U 1 1 539093A7
 P 15300 3650
 F 0 "#PWR094" H 15300 3650 30  0001 C CNN
@@ -979,7 +947,7 @@ Connection ~ 15000 3450
 Text Notes 13650 3650 0    60   ~ 0
 Place near the VDDQ balls.
 $Comp
-L C C96
+L armory-rescue:C C96
 U 1 1 539093C2
 P 13800 3150
 F 0 "C96" H 13800 3250 40  0000 L CNN
@@ -995,7 +963,7 @@ F 8 "1844078" H 13800 3150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C100
+L armory-rescue:C C100
 U 1 1 539093CD
 P 14400 3150
 F 0 "C100" H 14400 3250 40  0000 L CNN
@@ -1011,7 +979,7 @@ F 8 "1844078" H 14400 3150 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C104
+L armory-rescue:C C104
 U 1 1 539093D8
 P 15000 3150
 F 0 "C104" H 15000 3250 40  0000 L CNN
@@ -1029,7 +997,7 @@ $EndComp
 Wire Wire Line
 	13800 3450 15300 3450
 $Comp
-L C C91
+L armory-rescue:C C91
 U 1 1 539094E1
 P 5800 8100
 F 0 "C91" H 5800 8200 40  0000 L CNN
@@ -1045,7 +1013,7 @@ F 8 "1844078" H 5800 8100 60  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C93
+L armory-rescue:C C93
 U 1 1 53909500
 P 6100 8100
 F 0 "C93" H 6100 8200 40  0000 L CNN
@@ -1065,7 +1033,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 7150 5800 7900
 $Comp
-L GND #PWR095
+L armory-rescue:GND #PWR095
 U 1 1 5390971C
 P 5800 8600
 F 0 "#PWR095" H 5800 8600 30  0001 C CNN
@@ -1276,7 +1244,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 6750 3300 6750
 $Comp
-L R R24
+L armory-rescue:R R24
 U 1 1 53C6BDEB
 P 15500 6150
 F 0 "R24" V 15580 6150 40  0000 C CNN
@@ -1296,7 +1264,7 @@ Wire Wire Line
 Text Label 2650 3150 0    60   ~ 0
 DRAM_A14
 $Comp
-L MT41J256M16HA U4
+L armory:MT41J256M16HA U4
 U 1 1 53909770
 P 9200 4900
 F 0 "U4" H 9200 5100 157 0000 C CNN
@@ -1317,7 +1285,7 @@ Wire Wire Line
 Text Label 6450 4550 0    60   ~ 0
 DRAM_A14
 $Comp
-L R R30
+L armory-rescue:R R30
 U 1 1 53F354E7
 P 14600 7650
 F 0 "R30" V 14680 7650 40  0000 C CNN
